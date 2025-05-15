@@ -1,0 +1,18 @@
+{
+  "name": "cicd-demo-app",
+  "version": "1.0.0",
+  "description": "Sample application for CI/CD pipeline demonstration",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "eslint": "^7.32.0"
+  }
+} 
